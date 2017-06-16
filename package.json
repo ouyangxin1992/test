@@ -21,5 +21,13 @@
     "jshint": "^2.9.4"
   },
   "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ouyangxin1992/test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ouyangxin1992/test/issues"
+  },
+  "homepage": "https://github.com/ouyangxin1992/test#readme",
   "description": ""
 }
