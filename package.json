@@ -1,7 +1,6 @@
 {
   "name": "city",
   "version": "1.0.0",
-  "description": "",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,5 +19,7 @@
     "gulp-webserver": "^0.9.1",
     "imagemin-pngquant": "^5.0.1",
     "jshint": "^2.9.4"
-  }
+  },
+  "dependencies": {},
+  "description": ""
 }
