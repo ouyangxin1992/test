@@ -1,7 +1,6 @@
 {
   "name": "city",
   "version": "1.0.0",
-  "description": "",
   "main": "gulpfile.js",
   "dependencies": {
     "gulp": "^3.9.1",
@@ -29,5 +28,6 @@
   "bugs": {
     "url": "https://github.com/ouyangxin1992/test/issues"
   },
-  "homepage": "https://github.com/ouyangxin1992/test#readme"
+  "homepage": "https://github.com/ouyangxin1992/test#readme",
+  "description": ""
 }

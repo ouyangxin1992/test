@@ -31,9 +31,7 @@ gulp.task("sass",function () {
         .pipe(gulp.dest("dist/css/"))
 });
 gulp.task("js",function () {
-
     return gulp.src(["src/js/**/*.","!*.min.js"])
-    // return gulp.src(["src/js/**/*.js","!*.min.js"])
         .pipe(sourcemaps.init())
         .pipe(rename({suffix:".min"}))
         .pipe(uglify())
