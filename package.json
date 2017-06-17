@@ -1,46 +1,33 @@
 {
   "name": "city",
   "version": "1.0.0",
-<<<<<<< HEAD
-  "main": "index.js",
-=======
+  "description": "",
   "main": "gulpfile.js",
->>>>>>> 8d6afa957862d75c7252494e3bea737519f66fc8
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-<<<<<<< HEAD
-=======
+  "dependencies": {
     "gulp": "^3.9.1",
->>>>>>> 8d6afa957862d75c7252494e3bea737519f66fc8
     "gulp-imagemin": "^3.3.0",
     "gulp-jshint": "^2.0.4",
-    "gulp-livereload": "^3.8.1",
     "gulp-rename": "^1.2.2",
     "gulp-ruby-sass": "^2.1.1",
     "gulp-uglify": "^3.0.0",
+    "gulp-livereload": "^3.8.1",
     "gulp-webserver": "^0.9.1",
     "imagemin-pngquant": "^5.0.1",
     "jshint": "^2.9.4"
   },
-<<<<<<< HEAD
-  "dependencies": {
-    "gulp": "^3.9.1"
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-=======
-  "dependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ouyangxin1992/test.git"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/ouyangxin1992/test/issues"
   },
-  "homepage": "https://github.com/ouyangxin1992/test#readme",
->>>>>>> 8d6afa957862d75c7252494e3bea737519f66fc8
-  "description": ""
+  "homepage": "https://github.com/ouyangxin1992/test#readme"
 }
