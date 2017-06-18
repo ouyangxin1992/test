@@ -7,8 +7,8 @@ var gulp=require("gulp"),
     imagemin=require("gulp-imagemin"),
     pngquant=require("imagemin-pngquant"),
     jshint=require("gulp-jshint"),
-    rename=require("gulp-rename"),
-    sourcemaps=require("gulp-sourcemaps");
+    rename=require("gulp-rename");
+    // sourcemaps=require("gulp-sourcemaps");
 
 gulp.task("webserver",function () {
     gulp.src("./dist").
@@ -30,9 +30,13 @@ gulp.task("sass",function () {
         })
         .pipe(gulp.dest("dist/css/"))
 });
+gulp.task("css",function(){
+    return gulp.src("src/**/*.css").
+    pipe(gulp.dest("dist/"))
+});
 gulp.task("js",function () {
-    return gulp.src(["src/js/**/*.","!*.min.js"])
-        .pipe(sourcemaps.init())
+    return gulp.src("src/js/**/*.js")
+        // .pipe(sourcemaps.init())
         .pipe(rename({suffix:".min"}))
         .pipe(uglify())
         .pipe(gulp.dest("dist/js"));
@@ -52,4 +56,4 @@ gulp.task("imagemin",function(){
         .pipe(gulp.dest("dist/images"))
 });
 
-gulp.task("default",["sass","js","imagemin","html","webserver"])
+gulp.task("default",["sass","js","css","imagemin","html","webserver"])
